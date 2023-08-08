@@ -1,0 +1,8 @@
+{
+  "name": "mysite",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:mrfelipebraga/mysite.git",
+  "author": "Felipe Braga <mr.felipebraga@gmail.com>",
+  "license": "MIT"
+}
