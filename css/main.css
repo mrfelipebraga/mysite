@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;900&display=swap");
 
 :root {
   --text-color-primary: #2d2e32;
@@ -6,7 +6,7 @@
 }
 
 * {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 
   margin: 0;
   padding: 0;
@@ -20,7 +20,7 @@ body {
 
   color: var(--text-color-primary);
 
-  background: linear-gradient(-45deg, #485C14, #C3E175, #ABDB30, #4F5C30);
+  background: linear-gradient(-45deg, #485c14, #c3e175, #abdb30, #4f5c30);
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
 }
@@ -64,7 +64,7 @@ body {
   gap: 32px;
 }
 
-.informations>div {
+.informations > div {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -102,7 +102,7 @@ body {
   justify-content: center;
 }
 
-.avatar>div {
+.avatar > div {
   width: 30rem;
   height: 30rem;
   background-size: cover;
@@ -115,7 +115,7 @@ body {
   position: relative;
   transition: all 1s ease-in-out;
 
-  background-image: url('https://github.com/mrfelipebraga.png?size=1200');
+  background-image: url("./../img/profie_picture.png");
 }
 
 .footer {
@@ -163,7 +163,7 @@ body {
     margin: 1rem 0;
   }
 
-  .avatar>div {
+  .avatar > div {
     width: 15rem;
     height: 15rem;
   }
